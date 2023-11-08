@@ -20,6 +20,7 @@ class Array:
         self.__a[self.__nItems] = item
         self.__nItems += 1
     
+    #linear search
     def find(self, item):
         for j in range(self.__nItems):
             if self.__a[j] == item:
